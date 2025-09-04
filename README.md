@@ -17,7 +17,7 @@ Also includes:
 - **Load tests:** API load tests using NBomber to allow benchmarks of changes to the backend. To be added as a CI gate in future.
 ---
 
-### 🧪 GigTracker-Postman
+### 🧪 GigTracker-ApiTests-Postman
 A collection of **API tests** targeting the GigTracker backend.  
 - Focuses on integration-level validation  
 - Demonstrates request chaining, environment configuration, and reusable test scripts  
@@ -26,9 +26,9 @@ A collection of **API tests** targeting the GigTracker backend.
 
 ## Roadmap
 
-### 🔄 GigTracker-Playwright *(coming soon)*
+### 🔄 GigTracker-EndToEnd-Playwright *(coming soon)*
 An **end-to-end test suite** covering the full GigTracker stack.  
-- Built with **Playwright** and **Reqnroll**  
+- Built with **Playwright**, Java and **Cucumber**  
 - BDD-style test definitions for improved readability and collaboration  
 - Validates user journeys from UI to backend  
 
