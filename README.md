@@ -10,9 +10,11 @@ This GitHub profile showcases my demo platform **GigTracker** and the accompanyi
 ### 🎶 GigTracker
 A demo platform which has been built following the excellent [Reactivities](https://www.udemy.com/course/complete-guide-to-building-an-app-with-net-core-and-react) course
 - **Frontend:** React (with Material UI)  
-- **Backend:** .NET Core 9 (CQRS with MediatR)  
+- **Backend:** .NET Core 9 (CQRS with MediatR)
 - **Purpose:** Provides a realistic application for demonstrating test automation strategies across multiple tools and frameworks.
 
+Also includes:
+- **Load tests:** API load tests using NBomber to allow benchmarks of changes to the backend. To be added as a CI gate in future.
 ---
 
 ### 🧪 GigTracker-Postman
