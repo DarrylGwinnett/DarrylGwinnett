@@ -1,25 +1,57 @@
-# Hi there! I'm Darryl Gwinnett 👋
+# Hi, I'm Darryl Gwinnett
 
-Welcome to my GitHub profile! I'm a **Software Development Engineer in Test (SDET)** with a strong passion for building robust, scalable, and high-quality software through effective testing strategies.
+I’m a **Lead Automation Test Engineer** with a passion for building reliable, scalable, and maintainable test solutions.  
+This GitHub profile showcases my demo platform **GigTracker** and the accompanying test repositories that demonstrate different layers of the test pyramid.
 
-# 🎸 About GigTracker
+---
 
-As a demonstration system under test, I've built **GigTracker**, a React-based web application that facilitates **posting, viewing, and joining gigs**. The application stack includes:
-- **React** with **Semantic UI** for a user interface.
-- **.NET Core 9** backend ensuring efficient data management and business logic execution, along with:
-  - **Google Maps API** for seamless event location integration.
-  - **Spotify API** to enrich gig listings with artist data.
+## 🚀 Projects
 
-## 🛠️ Test Automation & Quality Strategy
+### 🎶 GigTracker
+A demo platform which has been built following the excellent [Reactivities](https://www.udemy.com/course/complete-guide-to-building-an-app-with-net-core-and-react) course
+- **Frontend:** React (with Material UI)  
+- **Backend:** .NET Core 9 (CQRS with MediatR)  
+- **Purpose:** Provides a realistic application for demonstrating test automation strategies across multiple tools and frameworks.
 
-I follow a structured **test pyramid approach** to ensure the system's reliability and performance. My test strategy includes:
-- **Postman** – API integration tests to validate backend endpoints.
-- **Cypress** – UI tests that mock the API, ensuring frontend stability.
-- **Playwright & Reqnroll (BDD)** – End-to-end acceptance tests for comprehensive system validation.
-- **K6** – Performance tests to assess system behavior under load conditions.
+---
 
-## 🔍 What I Bring to the Table
-- Expertise in **test automation frameworks** and **CI/CD pipelines**.
-- Strong experience in **quality engineering**, covering functional and non-functional testing.
-- Hands-on knowledge of **DevOps** and **test-driven development (TDD)** principles.
-- Passion for **continuous improvement** and **collaborative problem-solving**.
+### 🧪 GigTracker-Postman
+A collection of **API tests** targeting the GigTracker backend.  
+- Focuses on integration-level validation  
+- Demonstrates request chaining, environment configuration, and reusable test scripts  
+- Useful for verifying API reliability and correctness  
+
+---
+
+### 🔄 GigTracker-Playwright *(coming soon)*
+An **end-to-end test suite** covering the full GigTracker stack.  
+- Built with **Playwright** and **Reqnroll**  
+- BDD-style test definitions for improved readability and collaboration  
+- Validates user journeys from UI to backend  
+
+---
+
+### 🎭 GigTracker-Cypress *(coming soon)*
+A **UI-only test suite** for GigTracker.  
+- Uses **Cypress** to test the frontend in isolation  
+- Backend API calls are mocked to focus solely on the user interface  
+- Ensures frontend stability and reliability independent of backend services  
+
+---
+
+### 📈 GigTracker-K6 *(coming soon)*
+A collection of **performance, load, and stress tests** for the GigTracker backend.  
+- Implemented using **K6**  
+- Simulates realistic traffic scenarios  
+- Helps evaluate system resilience under load  
+
+---
+
+## 🧰 Skills Demonstrated
+- Designing test strategies across the **test pyramid**  
+- API, UI, end-to-end, BDD, and performance testing  
+- Tooling: Postman, Playwright, Reqnroll, Cypress, K6  
+- Testability-driven design and automation best practices  
+- Modern frameworks: **React**, **.NET Core**, **CQRS with MediatR**  
+
+---
