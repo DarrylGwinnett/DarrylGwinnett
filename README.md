@@ -21,7 +21,8 @@ A collection of **API tests** targeting the GigTracker backend.
 - Demonstrates request chaining, environment configuration, and reusable test scripts  
 - Useful for verifying API reliability and correctness  
 
----
+
+## Roadmap
 
 ### 🔄 GigTracker-Playwright *(coming soon)*
 An **end-to-end test suite** covering the full GigTracker stack.  
@@ -43,7 +44,7 @@ A **UI-only test suite** for GigTracker.
 A collection of **performance, load, and stress tests** for the GigTracker backend.  
 - Implemented using **K6**  
 - Simulates realistic traffic scenarios  
-- Helps evaluate system resilience under load  
+- Helps evaluate system resilience under load
 
 ---
 
