@@ -17,7 +17,7 @@ Also includes:
 - **Load tests:** API load tests using NBomber to allow benchmarks of changes to the backend. To be added as a CI gate in future.
 ---
 
-### 🧪 [GigTracker-ApiTests-Postman])https://github.com/DarrylGwinnett/GigTracker-ApiTests-Postman)
+### 🧪 [GigTracker-ApiTests-Postman](https://github.com/DarrylGwinnett/GigTracker-ApiTests-Postman)
 A collection of **API tests** targeting the GigTracker backend.  
 - Focuses on integration-level validation  
 - Demonstrates per-endpoint validation as well as user journey through the application
