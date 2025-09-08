@@ -7,7 +7,7 @@ This GitHub profile showcases my demo platform **GigTracker** and the accompanyi
 
 ## 🚀 Projects
 
-### 🎶 GigTracker
+### 🎶 (GigTracker)[https://github.com/DarrylGwinnett/GigTracker]
 A demo platform which has been built following the excellent [Reactivities](https://www.udemy.com/course/complete-guide-to-building-an-app-with-net-core-and-react) course
 - **Frontend:** React (with Material UI)  
 - **Backend:** .NET Core 9 (CQRS with MediatR)
@@ -17,11 +17,10 @@ Also includes:
 - **Load tests:** API load tests using NBomber to allow benchmarks of changes to the backend. To be added as a CI gate in future.
 ---
 
-### 🧪 GigTracker-ApiTests-Postman
+### 🧪 (GigTracker-ApiTests-Postman)[https://github.com/DarrylGwinnett/GigTracker-ApiTests-Postman]
 A collection of **API tests** targeting the GigTracker backend.  
 - Focuses on integration-level validation  
-- Demonstrates request chaining, environment configuration, and reusable test scripts  
-- Useful for verifying API reliability and correctness  
+- Demonstrates per-endpoint validation as well as user journey through the application
 
 
 ## Roadmap
